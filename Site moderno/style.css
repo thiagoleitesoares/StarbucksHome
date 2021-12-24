@@ -1,0 +1,89 @@
+body {
+    background: whitesmoke;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    align-items: center;
+}
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+html,body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.logo {
+    width: 50%;
+}
+.menu {
+    width: 50%;
+    padding-top: 0px;
+    text-align: right;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+section.sobre{
+    height: calc(100% - 20%);
+    position: relative;
+}
+.extras {
+    position: absolute;
+    bottom: -450px;
+    right: -550px;
+    width: 1200px;
+    height: 1200px;
+    background-color: #017143;
+    border-radius: 50%;
+}
+.social-midia {
+    position: absolute;
+    right: 560px;
+    top: 40px;
+}
+.social-midia img{
+    display: block;
+    width: 50px;
+    margin: 10px 0;
+}
+.texto-sobre{
+    position: absolute;
+    margin: -67.6em;
+    margin-bottom: 0px;
+}
+    .texto-sobre h1{
+        color: black;
+        font-size: 70px;
+    }
+    .texto-sobre p{
+        margin: 20px 0;
+        color: black;
+        font-size: 14;
+        font-weight: bold;
+        max-width: 800px;
+    }
+    .texto-sobre button{
+        border: 0;
+        background-color: #017143 ;
+        color: white;
+        border-radius: 10px;
+        width: 100px;
+        height: 30px;
+        cursor: pointer;
+    }
+    
